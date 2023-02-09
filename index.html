@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+            <h1 class="title">Typing speed</h1>
+            <h2 class="random-word">Awesome</h2>
+            <input id="input" type="text">
+            <h2>Time:<span id="timer" class="time">00:00</span></h2>
+            <h2>Score:<span id="score">0</span></h2>
+            <h1>Record:<span id="record">0</span></h1>
+ 
+
+    <div class="modal hidden">
+        <h2>Your score:</h2>
+        <h1 id="modal-score">0</h1>
+        <button id="btn-modal" class="btn btn-primary text-center">New Game</button>
+    </div>
+    <div class="overlay hidden"></div>
+
+
+
+
+    <script src="word.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

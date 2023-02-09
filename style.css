@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+        
+        body{
+            font-family: 'Unica One', display;
+            font-weight: 800;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background: linear-gradient( 178deg , rgb(27, 72, 229), rgb(85, 255, 176));
+        }
+        .title{
+            margin-top: -100px;
+            margin-bottom: 60px;
+            font-size: 100px;
+        }
+        .random-word{
+            color: red;
+            margin-bottom: 40px;
+            font-size: 50px;
+            border-bottom: 1px solid #222;
+            border-top: 1px solid #222;
+        }
+        .block{
+            display: block;
+        }
+        .modal{
+            width: 100%;
+            max-width: 400px;
+            height: 250px;
+            position: fixed;
+            top: 20%;
+            left: 35%;
+            padding: 30px;
+            z-index: 10;
+            text-align: center;
+        }
+        .time{
+            color: #0c6a0c;
+        }
+        .modal h2{
+            font-size: 80px;
+        }
+        .modal h1{
+            font-size: 80px;
+        }
+        .overlay{
+            position: fixed;
+            background-color: rgb(255, 255, 255, .5);
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            backdrop-filter: blur(5px);
+            z-index: 1;
+        }
+        .btn-new{
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .hidden{
+            display: none;
+        }
+        button{
+            font-family: 'Unica One', display;
+            padding: 8px;
+            font-size: 20px;
+            background-color: #222;
+            color: #fff;
+            border-radius: 8px;
+            border: 0;
+        }
+        input{
+            font-family: 'Unica One', display;
+            font-weight: 800;
+            font-size: 20px;
+            width: 100%;
+            max-width: 300px;
+            padding: 10px;
+            border: 0;
+            outline: none;
+            border-bottom: 1px solid #222;
+            background-color: inherit;
+        }
+
+
+        @media screen and (max-width: 500px) {
+            .title{
+                font-size: 50px;
+            }
+            .modal{
+                max-width: 300px;
+                top: 15%;
+                left: 12%;
+                padding: 10px;
+            }
+            .modal h2{
+                font-size: 40px;
+            }
+        }
+        @media screen and (max-width: 380px){
+            .modal{
+                left: 5%;
+            }
+        }
