@@ -8,8 +8,10 @@
             align-items: center;
             flex-direction: column;
             height: 100vh;
+            user-select: none;
             background: linear-gradient( 178deg , rgb(27, 72, 229), rgb(85, 255, 176));
         }
+        
         .title{
             margin-top: -100px;
             margin-bottom: 60px;
